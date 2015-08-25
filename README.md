@@ -31,11 +31,11 @@ This package is available through pip
 
 Make sure you have the necessary dependencies (pytest)
 
-    `pip install -r requirements/tests.t`
+    pip install -r requirements/tests.t
 
 Then run the tests
 
-    `py.test`
+    py.test
 
 
 ## Contributing
