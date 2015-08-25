@@ -1,6 +1,6 @@
 # The-Big-Username-Blacklist-Python
 
-This is a simple python wrapper built around [The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist).
+This library lets you validate usernames against a blacklist. The blacklist data is based on the data from [The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist) and contains privilege, programming terms, section names, financial terms and actions.
 
 
 ## How it works
@@ -9,7 +9,7 @@ The library exposes a function named validate, that you can use to see if a word
 
 ## Usage
 
-This is how you validate a word, if the word is in the blacklist, return False (validation failed), otherwise True.
+Validating a username is easy, if the word is in the blacklist, return False (validation failed), otherwise True. Example:
 
 ```python
 >>>> from the_big_username_blacklist import validate

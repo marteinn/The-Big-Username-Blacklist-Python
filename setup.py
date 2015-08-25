@@ -47,7 +47,7 @@ setup(
     long_description=long_description,
     author="Martin Sandström",
     author_email="martin@marteinn.se",
-    url="https://github.com/marteinn/wpparser",
+    url="https://github.com/marteinn/the-big-username-blacklist-python",
     packages=packages,
     package_data={"": ["LICENSE", ], "the_big_username_blacklist": ["*.txt"]},
     package_dir={"the_big_username_blacklist": "the_big_username_blacklist"},
