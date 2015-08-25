@@ -5,7 +5,7 @@ This library lets you validate usernames against a blacklist. The blacklist data
 
 ## How it works
 
-The library exposes a function named validate, that you can use to see if a word is occuring in the The-Big-Username-Blacklist.
+the_big_username_blacklist exposes a function named validate, you can use that function to see if a word is occuring in the The-Big-Username-Blacklist.
 
 ## Usage
 
