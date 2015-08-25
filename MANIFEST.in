@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements/tests.txt
+include the_big_username_blacklist/data/list.json
+include requirements/install.txt
