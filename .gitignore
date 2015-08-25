@@ -1,0 +1,13 @@
+/dist
+.DS_Store
+.*.swp
+*.pyc
+*.swp
+*.egg
+tags
+.idea/
+.coverage
+the_big_username_blacklist.egg-info
+__pycache__
+
+/venv*
