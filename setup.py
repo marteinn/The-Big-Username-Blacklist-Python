@@ -43,7 +43,7 @@ with open('the_big_username_blacklist/__init__.py', 'r') as fd:
 setup(
     name="the_big_username_blacklist",
     version=version,
-    description="",  # NOQA
+    description="Validate usernames against a blacklist",  # NOQA
     long_description=long_description,
     author="Martin Sandström",
     author_email="martin@marteinn.se",
