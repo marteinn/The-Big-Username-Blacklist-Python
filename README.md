@@ -5,7 +5,7 @@ This library lets you validate usernames against a blacklist. The blacklist data
 
 ## How it works
 
-the_big_username_blacklist exposes a function named validate, you can use that function to see if a word is occuring in the The-Big-Username-Blacklist.
+the_big_username_blacklist exposes a function named validate, you can use that function to see if a word is occuring in the blacklist.
 
 ## Usage
 
@@ -31,7 +31,7 @@ This package is available through pip
 
 Make sure you have the necessary dependencies (pytest)
 
-    pip install -r requirements/tests.t
+    pip install -r requirements/tests.txt
 
 Then run the tests
 
