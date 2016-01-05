@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/marteinn/The-Big-Username-Blacklist-Python.svg?branch=master)](https://travis-ci.org/marteinn/the-big-username-blacklist-python)
+[![PyPI version](https://badge.fury.io/py/the-big-username-blacklist.svg)](https://badge.fury.io/py/the-big-username-blacklist)
+
 # The-Big-Username-Blacklist-Python
 
 This library lets you validate usernames against a blacklist. The blacklist data is based on the data from [The-Big-Username-Blacklist](https://github.com/marteinn/The-Big-Username-Blacklist) and contains privilege, programming terms, section names, financial terms and actions.
