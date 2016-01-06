@@ -13,4 +13,4 @@ __license__ = "MIT"
 __copyright__ = "Copyright 2015 Martin Sandström"
 
 
-from .validator import validate  # NOQA
+from .validator import validate, get_blacklist  # NOQA

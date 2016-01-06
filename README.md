@@ -23,6 +23,20 @@ True
 
 ```
 
+
+#### Access the blacklist
+
+If you only want to retrive the blacklist data, you can find it in the `list` property.
+
+```python
+
+>>>> from the_big_username_blacklist import get_blacklist
+>>>> get_blacklist()
+[ '400',
+  '401',
+  '403'...
+```
+
 ## Installation
 
 This package is available through pip
@@ -38,7 +52,7 @@ Make sure you have the necessary dependencies (pytest)
 
 Then run the tests
 
-    py.test
+    py.test tests
 
 
 ## Contributing
