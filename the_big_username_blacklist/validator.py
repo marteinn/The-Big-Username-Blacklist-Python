@@ -5,22 +5,18 @@ import json
 _blacklist = []
 
 
-def validate(username):
+def validate(word):
     """
     Used to check if username is in blacklist.
     """
 
-    username = username.strip()
-    username = username.lower()
+    word = word.strip()
+    word = word.lower()
 
-    for word in _get_blacklist():
-        if username == word:
-            return False
-
-    return True
+    return word not in get_blacklist()
 
 
-def _get_blacklist():
+def get_blacklist():
     global _blacklist
 
     if not _blacklist:

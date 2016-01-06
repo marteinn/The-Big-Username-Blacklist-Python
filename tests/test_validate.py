@@ -1,4 +1,3 @@
-# content of test_sample.py
 from the_big_username_blacklist import validate
 
 
