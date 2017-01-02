@@ -8,4 +8,4 @@ python:
 install:
  - pip install -r requirements/tests.txt
 script:
- - python runtests.py
+ - py.test tests
