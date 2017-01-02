@@ -11,7 +11,7 @@ __version__ = "1.3.4"
 __build__ = 134
 __author__ = "Martin Sandström"
 __license__ = "MIT"
-__copyright__ = "Copyright 2015-2016 Martin Sandström"
+__copyright__ = "Copyright 2015-2017 Martin Sandström"
 
 
 from .validator import validate, get_blacklist  # NOQA
