@@ -7,7 +7,7 @@
 tags
 .idea/
 .coverage
+/venv*
+.cache
 the_big_username_blacklist.egg-info
 __pycache__
-
-/venv*
