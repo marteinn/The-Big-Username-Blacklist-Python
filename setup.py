@@ -3,9 +3,7 @@
 
 import os
 import sys
-import pip
 import re
-from pip.req import parse_requirements
 from setuptools import setup
 
 
@@ -19,13 +17,11 @@ packages = [
 ]
 
 # Handle requirements
-requires = parse_requirements("requirements/install.txt",
-                              session=pip.download.PipSession())
-install_requires = [str(ir.req) for ir in requires]
+install_requires = []
 
-requires = parse_requirements("requirements/tests.txt",
-                              session=pip.download.PipSession())
-tests_requires = [str(ir.req) for ir in requires]
+tests_requires = [
+    "pytest==3.0.5",
+]
 
 # Convert markdown to rst
 try:
@@ -55,7 +51,7 @@ setup(
     install_requires=install_requires,
     license="MIT",
     zip_safe=False,
-    classifiers=(
+    classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Natural Language :: English",
@@ -66,5 +62,5 @@ setup(
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: Implementation :: PyPy"
-    ),
+    ],
 )
