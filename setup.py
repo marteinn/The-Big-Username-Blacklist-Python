@@ -32,7 +32,7 @@ except:
 
 
 version = ''
-with open('the_big_username_blacklist/__init__.py', 'r') as fd:
+with open('the_big_username_blacklist/__init__.py', 'r', encoding='utf-8') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
