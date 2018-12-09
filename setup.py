@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import io
 import os
 import sys
 import re
@@ -32,7 +33,7 @@ except:
 
 
 version = ''
-with open('the_big_username_blacklist/__init__.py', 'r', encoding='utf-8') as fd:
+with io.open('the_big_username_blacklist/__init__.py', 'r', encoding='utf-8') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
